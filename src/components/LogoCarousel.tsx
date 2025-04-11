@@ -18,7 +18,7 @@ const logos = [
 
 const LogoCarousel: React.FC = () => {
   return (
-    <div className="bg-[#0a0a0a] py-8 pt-12 lg:pt-8 mb-0 lg:mb-28 w-full">
+    <div className="bg-[#0a0a0a] py-8 pt-12 lg:pt-8 mt-16 mb-0 lg:mb-24 w-full">
       <Swiper
         modules={[Autoplay]}
         loop={true}
